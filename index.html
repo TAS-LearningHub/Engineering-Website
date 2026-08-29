@@ -173,6 +173,11 @@
     .program-hero-link:hover::after {
       transform: translateX(4px);
     }
+    .program-hero-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
     .program-features {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -963,34 +968,65 @@
       </div>
     </section>
 
+    <section class="program-hero" aria-labelledby="master-program-heading">
+      <div class="program-hero-content">
+        <h3 id="master-program-heading">Stage 5 Engineering Technology 200-hour Master Program</h3>
+        <p>The complete two-year network program maps the Year 9 and Year 10 course sequence to the Engineering Technology 7–10 Syllabus (2024). It includes exact website destinations, evidence checkpoints and a full allocation of all 163 official syllabus content items.</p>
+        <div class="program-hero-links">
+          <a href="assets/teacher-resources/engineering-technology/Stage-5-Engineering-Technology-200-Hour-Master-Teaching-Program-v2.0-Network-Benchmark.pdf" class="program-hero-link" target="_blank" rel="noopener">
+            Open master program PDF
+          </a>
+          <a href="assets/teacher-resources/engineering-technology/Stage-5-Engineering-Technology-200-Hour-Master-Teaching-Program-v2.0-Network-Benchmark.docx" class="program-hero-link">
+            Download editable Word copy
+          </a>
+        </div>
+        <div class="program-features">
+          <div class="program-feature">200 periods across the two-year course</div>
+          <div class="program-feature">All eight EGT5 outcomes</div>
+          <div class="program-feature">All 163 official content items allocated</div>
+          <div class="program-feature">Website, evidence and Teacher to confirm links</div>
+        </div>
+      </div>
+    </section>
+
     <section class="program-hero" aria-labelledby="program-heading">
       <div class="program-hero-content">
-        <h3 id="program-heading">Complete Year 9 Engineering Program</h3>
-        <p>Access the comprehensive week-by-week scope and sequence document with direct links to all toolkit sections, outcomes mapping, assessment schedules, and resources. This is your central hub for planning and navigating the entire Year 9 Engineering course.</p>
-        <a href="year9_program_complete.html" class="program-hero-link">
-          View Complete Program Document
-        </a>
+        <h3 id="program-heading">Year 9 Engineering Technology Program</h3>
+        <p>The 100-period network program preserves the four-project site sequence and aligns it to the Engineering Technology 7–10 Syllabus (2024).</p>
+        <div class="program-hero-links">
+          <a href="assets/teacher-resources/engineering-technology/Year-9-Engineering-Technology-100-Period-Teaching-Program-v2.0-Network-Benchmark.pdf" class="program-hero-link" target="_blank" rel="noopener">
+            Open Year 9 program PDF
+          </a>
+          <a href="year9_program_complete.html" class="program-hero-link">
+            Open site sequence
+          </a>
+        </div>
         <div class="program-features">
-          <div class="program-feature">Week-by-week breakdown for all 4 terms</div>
-          <div class="program-feature">Direct links to toolkit sections</div>
-          <div class="program-feature">Complete outcomes mapping</div>
-          <div class="program-feature">Assessment schedules & requirements</div>
+          <div class="program-feature">100 periods across four project blocks</div>
+          <div class="program-feature">Direct links to named site sections</div>
+          <div class="program-feature">EGT5 outcomes and syllabus content</div>
+          <div class="program-feature">Teacher checkpoints and evidence</div>
         </div>
       </div>
     </section>
 
     <section class="program-hero" aria-labelledby="year10-program-heading">
       <div class="program-hero-content">
-        <h3 id="year10-program-heading">Complete Year 10 Engineering Program</h3>
-        <p>Access the full Year 10 semester program with week-by-week scope and sequence, toolkit links, assessment information, outcomes mapping, Google Classroom topic structure, support documents, portfolio resources, and practical teaching notes.</p>
-        <a href="year10_program_complete.html" class="program-hero-link">
-          View Complete Year 10 Program Document
-        </a>
+        <h3 id="year10-program-heading">Year 10 Engineering Technology Program</h3>
+        <p>The 100-period network program preserves the two-semester site sequence and aligns it to the Engineering Technology 7–10 Syllabus (2024).</p>
+        <div class="program-hero-links">
+          <a href="assets/teacher-resources/engineering-technology/Year-10-Engineering-Technology-100-Period-Teaching-Program-v2.0-Network-Benchmark.pdf" class="program-hero-link" target="_blank" rel="noopener">
+            Open Year 10 program PDF
+          </a>
+          <a href="year10_program_complete.html" class="program-hero-link">
+            Open site sequence
+          </a>
+        </div>
         <div class="program-features">
-          <div class="program-feature">20-week sequence for both semesters</div>
-          <div class="program-feature">Direct links to Year 10 toolkits</div>
-          <div class="program-feature">IND5 and EGT5 outcomes mapping</div>
-          <div class="program-feature">Assessment, folio and resource links</div>
+          <div class="program-feature">100 periods across two semester projects</div>
+          <div class="program-feature">Direct links to named site sections</div>
+          <div class="program-feature">EGT5 outcomes and syllabus content</div>
+          <div class="program-feature">Teacher checkpoints and evidence</div>
         </div>
       </div>
     </section>
@@ -1009,14 +1045,14 @@
 
     <section class="syllabus-section" id="syllabus">
       <div class="syllabus-header">
-        <h2>Syllabus & Support Documents</h2>
-        <p>Download the official NESA syllabus and companion support material for Stage 4 and Stage 5 Engineering Technology.</p>
+        <h2>Syllabus &amp; Teacher Program Documents</h2>
+        <p>Use the current official syllabus and the network-format programs below. The older Industrial Technology files remain available as archived references only.</p>
       </div>
       <div class="syllabus-groups">
         <details class="syllabus-group">
           <summary>
             <div class="syllabus-icon" aria-hidden="true">DOC</div>
-            <span>Pre-2027 Syllabus &amp; Support Documents</span>
+            <span>Archived pre-2027 references</span>
           </summary>
           <div class="syllabus-links">
             <a class="syllabus-card" href="industrial-technology-years-7-10-syllabus-2019%20(4).pdf" target="_blank" rel="noopener">
@@ -1064,15 +1100,15 @@
         <details class="syllabus-group">
           <summary>
             <div class="syllabus-icon" aria-hidden="true">DOC</div>
-            <span>Post-2027 Syllabus &amp; Support Documents</span>
+            <span>Engineering Technology 7–10 (2024) — mandatory from 2027</span>
           </summary>
           <div class="syllabus-links">
-            <a class="syllabus-card" href="Syllabus/NESA%20-%20engineering_technology_7_10_2024%20(S4,%20S5,%20LS).docx" target="_blank" rel="noopener">
-              <div class="syllabus-icon">DOC</div>
+            <a class="syllabus-card" href="https://curriculum.nsw.edu.au/learning-areas/tas/engineering-technology-7-10-2024/overview/course" target="_blank" rel="noopener">
+              <div class="syllabus-icon">WEB</div>
               <div class="syllabus-content">
-                <div class="syllabus-title">NESA Engineering Technology 7-10 Syllabus</div>
-                <div class="syllabus-subtitle">Stage 4/5 and Life Skills program</div>
-                <span class="syllabus-tag">Post-2027</span>
+                <div class="syllabus-title">Engineering Technology 7–10 Syllabus (2024)</div>
+                <div class="syllabus-subtitle">Official NESA online syllabus</div>
+                <span class="syllabus-tag">Mandatory from 2027</span>
               </div>
             </a>
             <a class="syllabus-card" href="Syllabus/NESA%20-%20engineering_technology_7_10_2024%20syllabus%20support%20(S4,%20S5,%20LS).docx" target="_blank" rel="noopener">
@@ -1080,15 +1116,95 @@
               <div class="syllabus-content">
                 <div class="syllabus-title">NESA Syllabus Support Pack</div>
                 <div class="syllabus-subtitle">Guidance and resources for Stage 4/5</div>
-                <span class="syllabus-tag">Post-2027</span>
+                <span class="syllabus-tag">Local support copy</span>
               </div>
             </a>
-            <a class="syllabus-card" href="New%20Engineering%20Program%20from%20new%20syllabus.docx" target="_blank" rel="noopener">
+            <a class="syllabus-card" href="assets/teacher-resources/engineering-technology/Stage-5-Engineering-Technology-200-Hour-Master-Teaching-Program-v2.0-Network-Benchmark.pdf" target="_blank" rel="noopener">
+              <div class="syllabus-icon">PDF</div>
+              <div class="syllabus-content">
+                <div class="syllabus-title">Stage 5 Engineering Technology 200-hour Master Program</div>
+                <div class="syllabus-subtitle">Complete two-year network program (PDF)</div>
+                <span class="syllabus-tag">Master</span>
+              </div>
+            </a>
+            <a class="syllabus-card" href="assets/teacher-resources/engineering-technology/Stage-5-Engineering-Technology-200-Hour-Master-Teaching-Program-v2.0-Network-Benchmark.docx">
               <div class="syllabus-icon">DOC</div>
               <div class="syllabus-content">
-                <div class="syllabus-title">Stage 5 Engineering Technology 7-10 - Program (2024 Syllabus, from 2027)</div>
-                <div class="syllabus-subtitle">Draft Year 9/10 Engineering Technology program - for implementation from 2027 (DOCX)</div>
-                <span class="syllabus-tag">Post-2027</span>
+                <div class="syllabus-title">Stage 5 Engineering Technology 200-hour Master Program</div>
+                <div class="syllabus-subtitle">Editable Word copy</div>
+                <span class="syllabus-tag">Master</span>
+              </div>
+            </a>
+            <a class="syllabus-card" href="assets/teacher-resources/engineering-technology/Year-9-Engineering-Technology-100-Period-Teaching-Program-v2.0-Network-Benchmark.pdf" target="_blank" rel="noopener">
+              <div class="syllabus-icon">PDF</div>
+              <div class="syllabus-content">
+                <div class="syllabus-title">Year 9 Engineering Technology Program</div>
+                <div class="syllabus-subtitle">100-period network program (PDF)</div>
+                <span class="syllabus-tag">Year 9</span>
+              </div>
+            </a>
+            <a class="syllabus-card" href="assets/teacher-resources/engineering-technology/Year-9-Engineering-Technology-100-Period-Teaching-Program-v2.0-Network-Benchmark.docx">
+              <div class="syllabus-icon">DOC</div>
+              <div class="syllabus-content">
+                <div class="syllabus-title">Year 9 Engineering Technology Program</div>
+                <div class="syllabus-subtitle">Editable Word copy</div>
+                <span class="syllabus-tag">Year 9</span>
+              </div>
+            </a>
+            <a class="syllabus-card" href="assets/teacher-resources/engineering-technology/Year-10-Engineering-Technology-100-Period-Teaching-Program-v2.0-Network-Benchmark.pdf" target="_blank" rel="noopener">
+              <div class="syllabus-icon">PDF</div>
+              <div class="syllabus-content">
+                <div class="syllabus-title">Year 10 Engineering Technology Program</div>
+                <div class="syllabus-subtitle">100-period network program (PDF)</div>
+                <span class="syllabus-tag">Year 10</span>
+              </div>
+            </a>
+            <a class="syllabus-card" href="assets/teacher-resources/engineering-technology/Year-10-Engineering-Technology-100-Period-Teaching-Program-v2.0-Network-Benchmark.docx">
+              <div class="syllabus-icon">DOC</div>
+              <div class="syllabus-content">
+                <div class="syllabus-title">Year 10 Engineering Technology Program</div>
+                <div class="syllabus-subtitle">Editable Word copy</div>
+                <span class="syllabus-tag">Year 10</span>
+              </div>
+            </a>
+          </div>
+        </details>
+        <details class="syllabus-group">
+          <summary>
+            <div class="syllabus-icon" aria-hidden="true">MAP</div>
+            <span>Alignment manifests &amp; full syllabus coverage record</span>
+          </summary>
+          <div class="syllabus-links">
+            <a class="syllabus-card" href="assets/teacher-resources/engineering-technology/Stage-5-Engineering-Technology-200-Hour-Family-Coverage-Record-v2.0.json" target="_blank" rel="noopener">
+              <div class="syllabus-icon">JSON</div>
+              <div class="syllabus-content">
+                <div class="syllabus-title">Stage 5 Engineering Family Coverage Record</div>
+                <div class="syllabus-subtitle">All 163 official content items allocated across the two-year family</div>
+                <span class="syllabus-tag">Complete</span>
+              </div>
+            </a>
+            <a class="syllabus-card" href="assets/teacher-resources/engineering-technology/Stage-5-Engineering-Technology-200-Hour-Master-Alignment-Manifest-v2.0.json" target="_blank" rel="noopener">
+              <div class="syllabus-icon">JSON</div>
+              <div class="syllabus-content">
+                <div class="syllabus-title">200-hour Master Alignment Manifest</div>
+                <div class="syllabus-subtitle">Machine-readable period, site, outcome and content mapping</div>
+                <span class="syllabus-tag">Schema 1.1</span>
+              </div>
+            </a>
+            <a class="syllabus-card" href="assets/teacher-resources/engineering-technology/Year-9-Engineering-Technology-100-Period-Alignment-Manifest-v2.0.json" target="_blank" rel="noopener">
+              <div class="syllabus-icon">JSON</div>
+              <div class="syllabus-content">
+                <div class="syllabus-title">Year 9 Alignment Manifest</div>
+                <div class="syllabus-subtitle">Machine-readable 100-period mapping</div>
+                <span class="syllabus-tag">Schema 1.1</span>
+              </div>
+            </a>
+            <a class="syllabus-card" href="assets/teacher-resources/engineering-technology/Year-10-Engineering-Technology-100-Period-Alignment-Manifest-v2.0.json" target="_blank" rel="noopener">
+              <div class="syllabus-icon">JSON</div>
+              <div class="syllabus-content">
+                <div class="syllabus-title">Year 10 Alignment Manifest</div>
+                <div class="syllabus-subtitle">Machine-readable 100-period mapping</div>
+                <span class="syllabus-tag">Schema 1.1</span>
               </div>
             </a>
           </div>
